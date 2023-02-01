@@ -119,7 +119,7 @@ function rollDice() {
     }
   } else {
     roll = 0;
-    if (attempt < 3) {
+    if (attempt <=2) {
       let tryYes = prompt("Do you want to try again? type YES to continue");
       switch (tryYes) {
         case "YES":
