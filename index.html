@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="left_panel">
+        <button id="sec1" class="btn">
+            <img src="./img/1.png" alt="1" id="img1" />
+        </button>
+        <button id="sec2" class="btn">
+            <img src="./img/2.png" alt="2" id="img2" />
+        </button>
+        <button id="sec3" class="btn">
+            <img src="./img/3.png" alt="3" id="img3" />
+        </button>
+        <button id="sec4" class="btn">
+            <img src="./img/4.png" alt="4" id="img3" />
+        </button>
+    </div>
+    <div class="user_Reg_Form" id="user_Reg_Form">
+        <form>
+            <label for="fname">Full Name</label><br />
+            <input type="text" name="fname" id="fname" required /><br /><br />
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" /><br /><br />
+            <label for="uname">Username</label><br />
+            <input type="text" name="uname" id="uname" required /><br /><br />
+            <input type="button" value="Submit" id="regBtn" />
+        </form>
+    </div>
+    <div class="user_info" id="user_info">
+        <div class="full_name" id="full_name"></div>
+        <div class="user_name" id="user_name"></div>
+    </div>
+    <div class="dice" id="dice">
+        <button id="diceBtn"><img src="./img/dice.png" alt="" /></button>
+        <div class="rndNum" id="rndNumSec">
+            <br /><br />
+            <div class="rndNum" id="rndNum"></div>
+            <br /><br />
+            <div class="rndNumSum" id="rndNumSum"></div>
+        </div>
+    </div>
+    <div id="badluck"></div>
+    <div class="coupon_section" id="coupon_section">
+        <div id="couponGen" class="couponGen"></div>
+        <div class="cong">
+            <img src="./img/conc.jpg" alt="comc" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
