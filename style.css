@@ -25,7 +25,6 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-
 .user_Reg_Form #regBtn {
   width: 30%;
   background-color: #4caf50;
@@ -40,8 +39,10 @@
   width: 100px;
   cursor: pointer;
 }
-.left_panel img:active {
-  opacity: 0.8;
+
+.active, .btn:hover{
+  box-shadow: -3px -3px 10px rgba(58, 56, 56, 0.479),5px 5px 15px rgba(0,0,0,0.3);
+  border-radius: 15px;
 }
 .user_info {
   display: none;
